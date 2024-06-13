@@ -2,18 +2,18 @@
 
 return [
     'storage' => [
-        'domain' => env('STORAGE_DOMAIN', 'https://brkcdn.com'),
-        'thumbnails' => env('THUMBNAIL_DOMAIN', 'https://thumbnails.brkcdn.com'),
+        'domain' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz'),
+        'thumbnails' => env('THUMBNAIL_DOMAIN', 'https://thumbnails.squish-town.xyz'),
         'pending' => [
-            '512' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_PENDING_512', '/default/pending.png'),
-            'set' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_PENDING_SET', '/default/pendingset.png'),
+            '512' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_PENDING_512', '/default/pending.png'),
+            'set' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_PENDING_SET', '/default/pendingset.png'),
         ],
         'declined' => [
-            '512' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_DECLINED_512', '/default/declined.png'),
-            'set' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_DECLINED_SET', '/default/declinedset.png'),
+            '512' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_DECLINED_512', '/default/declined.png'),
+            'set' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_DECLINED_SET', '/default/declinedset.png'),
         ],
-        'avatars' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_AVATARS_LOC', '/images/avatars/'),
-        'items' => env('STORAGE_DOMAIN', 'https://brkcdn.com') . env('STORAGE_ITEMS_LOC', '/v2/images/shop/thumbnails/'),
+        'avatars' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_AVATARS_LOC', '/images/avatars/'),
+        'items' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_ITEMS_LOC', '/v2/images/shop/thumbnails/'),
         'file' => env('STORAGE_FILE_LOC', '/var/www/storage_subdomain/v2/assets')
     ],
     'avatar' => [
@@ -89,8 +89,8 @@ return [
             ]
         ]
     ],
-    'main_account_id' => env('MAIN_ACCOUNT_ID', 1003),
-    'url' => env('APP_URL', 'https://www.brick-hill.com'),
+    'main_account_id' => env('MAIN_ACCOUNT_ID', 1),
+    'url' => env('APP_URL', 'https://squish-town.xyz'),
     'api_url' => env('API_URL'),
     'admin_url' => env('ADMIN_URL'),
 ];

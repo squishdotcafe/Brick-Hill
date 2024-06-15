@@ -14,7 +14,7 @@ return [
         ],
         'avatars' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_AVATARS_LOC', '/images/avatars/'),
         'items' => env('STORAGE_DOMAIN', 'https://cdn.squish-town.xyz') . env('STORAGE_ITEMS_LOC', '/v2/images/shop/thumbnails/'),
-        'file' => env('STORAGE_FILE_LOC', '/var/www/storage_subdomain/v2/assets')
+        'file' => env('STORAGE_FILE_LOC', '/var/www/cdn/v2/assets')
     ],
     'avatar' => [
         'default_colors' => [

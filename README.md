@@ -1,5 +1,5 @@
 # Brick Hill Source 2023
-This is the Brick Hill source from 2023, it should be common sense to setup.
+This is the Brick Hill source from 2023, it should be common sense to setup. I advise against using this fork.
 
 If you use this according to the LICENCE you must open source any updates you make to it.
 

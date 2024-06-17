@@ -188,7 +188,7 @@
                                 @foreach($reply->quotes as $quote)
                                     <blockquote class="{{ $thread->board->category->color }}">
                                         <em>Quote from
-                                            <a href="https://www.brick-hill.com/user/{{ $quote->author->id }}">
+                                            <a href="https://squish-town.xyz/user/{{ $quote->author->id }}">
                                                 {{ $quote->author->username }}
                                             </a>, {{ Carbon\Carbon::parse($quote->created_at)->format('h:i A d/m/Y') }}
                                         </em>
